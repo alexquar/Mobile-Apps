@@ -50,7 +50,7 @@ struct ContentView: View {
                 Button {
                     isNight = !isNight
                 } label : {
-                    changeButton(title: "Change time", textColor: isNight ? .blue : .black, bgColor: .white)
+                    changeButton(title: "Change Day time", textColor: isNight ? .blue : .black, bgColor: .white)
                 }
                 Spacer()
             }
